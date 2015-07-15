@@ -16,10 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="ddM-qT-KwG">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="FlP-aT-ddD"/>
+                                    <constraint firstAttribute="height" constant="200" id="KcX-Gg-eld"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Yd-TW-866">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <rect key="frame" x="137" y="392" width="46" height="30"/>
                                 <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -27,10 +34,12 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="9Yd-TW-866" firstAttribute="top" secondItem="ddM-qT-KwG" secondAttribute="bottom" constant="8" id="4KO-PC-v5a"/>
+                            <constraint firstAttribute="centerX" secondItem="ddM-qT-KwG" secondAttribute="centerX" id="DAC-qs-JnY"/>
+                            <constraint firstAttribute="centerY" secondItem="ddM-qT-KwG" secondAttribute="centerY" id="Fk2-c7-Veq"/>
                             <constraint firstAttribute="centerX" secondItem="9Yd-TW-866" secondAttribute="centerX" id="VQl-Xx-K2i"/>
-                            <constraint firstAttribute="centerY" secondItem="9Yd-TW-866" secondAttribute="centerY" id="tbM-nB-0D2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="NKh-6b-JZF"/>
@@ -95,6 +104,9 @@
             <point key="canvasLocation" x="270" y="453"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="coffee" width="53" height="107"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

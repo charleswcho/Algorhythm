@@ -15,6 +15,8 @@
 		BAC30D6C1B55892100412D08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC30D6A1B55892100412D08 /* LaunchScreen.xib */; };
 		BAC30D781B55892100412D08 /* AlgorhythmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC30D771B55892100412D08 /* AlgorhythmTests.m */; };
 		BAC30D831B55930A00412D08 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC30D821B55930A00412D08 /* PlaylistDetailViewController.m */; };
+		BAC30D891B56E40300412D08 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC30D881B56E40300412D08 /* MusicLibrary.m */; };
+		BAC30D8C1B56E8DF00412D08 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC30D8B1B56E8DF00412D08 /* Playlist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		BAC30D771B55892100412D08 /* AlgorhythmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorhythmTests.m; sourceTree = "<group>"; };
 		BAC30D811B55930A00412D08 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
 		BAC30D821B55930A00412D08 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
+		BAC30D871B56E40300412D08 /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		BAC30D881B56E40300412D08 /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
+		BAC30D8A1B56E8DF00412D08 /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		BAC30D8B1B56E8DF00412D08 /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 				BAC30D631B55892100412D08 /* PlaylistMasterViewController.m */,
 				BAC30D811B55930A00412D08 /* PlaylistDetailViewController.h */,
 				BAC30D821B55930A00412D08 /* PlaylistDetailViewController.m */,
+				BAC30D871B56E40300412D08 /* MusicLibrary.h */,
+				BAC30D881B56E40300412D08 /* MusicLibrary.m */,
+				BAC30D8A1B56E8DF00412D08 /* Playlist.h */,
+				BAC30D8B1B56E8DF00412D08 /* Playlist.m */,
 				BAC30D651B55892100412D08 /* Main.storyboard */,
 				BAC30D681B55892100412D08 /* Images.xcassets */,
 				BAC30D6A1B55892100412D08 /* LaunchScreen.xib */,
@@ -225,9 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAC30D641B55892100412D08 /* PlaylistMasterViewController.m in Sources */,
+				BAC30D8C1B56E8DF00412D08 /* Playlist.m in Sources */,
 				BAC30D831B55930A00412D08 /* PlaylistDetailViewController.m in Sources */,
 				BAC30D611B55892100412D08 /* AppDelegate.m in Sources */,
 				BAC30D5E1B55892100412D08 /* main.m in Sources */,
+				BAC30D891B56E40300412D08 /* MusicLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
